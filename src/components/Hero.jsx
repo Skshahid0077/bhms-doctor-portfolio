@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import heroImage from "../assets/Sadiya-Doctor.png";
+import heroImage from "../assets/Sadiya-Doctor.jpg";
 
 const Hero = () => {
   const scrollToContact = () => {
