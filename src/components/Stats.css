@@ -1,0 +1,107 @@
+.stats {
+  background-color: #eaf2fc;
+  padding: 70px 40px;
+}
+
+.stats-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.stats-text {
+  max-width: 560px;
+}
+
+.stats-text h2 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #14213d;
+  line-height: 1.4;
+  margin: 0 0 24px;
+}
+
+.stats-btn {
+  background-color: #2f6fed;
+  color: #ffffff;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.stats-btn:hover {
+  background-color: #1d56d1;
+}
+
+.stats-schedule-card {
+  background-color: #2f6fed;
+  border-radius: 10px;
+  padding: 28px 32px;
+  min-width: 280px;
+  flex-shrink: 0;
+}
+
+.stats-schedule-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.stats-schedule-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.stats-schedule-row:last-child {
+  margin-bottom: 0;
+}
+
+.stats-check {
+  color: #ffffff;
+  margin-top: 4px;
+  font-size: 13px;
+}
+
+.stats-day {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.stats-time {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 13px;
+  margin: 2px 0 0;
+}
+
+@media (max-width: 900px) {
+  .stats-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .stats-schedule-card {
+    width: 100%;
+    max-width: 380px;
+  }
+
+  .stats-schedule-row {
+    text-align: left;
+  }
+}
