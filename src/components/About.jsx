@@ -9,7 +9,7 @@ const About = () => {
         <div className="about-image-wrap">
           <img
             src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=700&q=80"
-            alt="Dr. Jane Doe"
+            alt="Dr. Sadiya"
           />
           <button className="about-play-btn" aria-label="Play introduction video">
             <FaPlay />
@@ -17,7 +17,7 @@ const About = () => {
         </div>
 
         <div className="about-content">
-          <h2>Dr. Jane Doe</h2>
+          <h2>Dr. Sadiya</h2>
           <p className="about-specialty">BHMS, CLASSICAL HOMEOPATH</p>
           <p className="about-credentials">BHMS, MD (Homeopathy)</p>
 
